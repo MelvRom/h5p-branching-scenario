@@ -40,8 +40,8 @@
                 "label": "Image"
               },
               {
-                "label": "Score",
-                "description": "Le score sera envoyé à tout LMS, LRS ou tout autre service qui reçoit des résultats depuis H5P pour des utilisateurs qui atteignent le scénario de fin par défaut"
+                "label": "Pointage",
+                "description": "Le pointage sera envoyé à tout LMS, LRS ou tout autre service qui reçoit des résultats depuis H5P pour des utilisateurs qui atteignent le scénario de fin par défaut"
               },
               {
                 "label": "Identifiant du contenu"
@@ -59,21 +59,21 @@
                 "description": "Si sélectionné, l'utilisateur verra le titre du contenu dans la barre supérieure en haut de ce contenu"
               },
               {
-                "label": "Text for the proceed button (max length: 50 characters)",
-                "default": "Proceed"
+                "label": "Texte pour le bouton Continuer (max longeur : 50 charactères)",
+                "default": "Continuer"
               },
               {
                 "label": "Identifiant de contenu suivant (les écrans de fin sont définis par des nombres négatifs)",
                 "description": "Contourner les options personnelles exigeant la complétion du contenu avant d’activer le bouton « Continuer ». N’aura aucun effet si le contenu n’indique pas de complétion (des images ou une présentation de cours comprenant une seule diapo, par exemple).",
                 "options": [
                   {
-                    "label": "Use behavioural setting"
+                    "label": "Utiliser option comportementale"
                   },
                   {
-                    "label": "Enabled"
+                    "label": "Activé"
                   },
                   {
-                    "label": "Disabled"
+                    "label": "Désactivé"
                   }
                 ]
               },
@@ -82,32 +82,32 @@
                 "label": "Feedback",
                 "fields": [
                   {
-                    "label": "Feedback title"
+                    "label": "Titre de rétroaction"
                   },
                   {
-                    "label": "Feedback text"
+                    "label": "Texte de rétroaction"
                   },
                   {
-                    "label": "Feedback image"
+                    "label": "Image de rétroaction"
                   },
                   {
-                    "label": "Score for this scenario",
-                    "description": "The score will be sent to any LMS, LRS or any other connected service that receives scores from H5P for users who reach this scenario."
+                    "label": "Pointage pour ce scénario",
+                    "description": "Le pointage sera envoyé à tout LMS, LRS ou tout autre service qui reçoit des résultats depuis H5P pour des utilisateurs qui atteignent le scénario de fin par défaut."
                   }
                 ]
               },
               {
-                "label": "Navigate back",
-                "description": "This will allow the user to go back and see the previous content/question in the scenario.",
+                "label": "Contourner la navigation vers l’arrière",
+                "description": "Contourner les paramètres individuels pour activer la navigation vers l'arrière",
                 "options": [
                   {
-                    "label": "Use behavioural setting"
+                    "label": "Utiliser option comportementale"
                   },
                   {
-                    "label": "Enabled"
+                    "label": "Activé"
                   },
                   {
-                    "label": "Disabled"
+                    "label": "Désactivé"
                   }
                 ]
               }
@@ -150,8 +150,8 @@
               "description": "Contourner les paramètres individuels exigeant que le contenu soit complété avant d'activer la touche « Continuer ». N'aura aucun effet si le contenu n'indique pas qu'il a été « fini », p.ex. des images ou des diaporamas avec une seule diapositive."
             },
             {
-              "label": "Randomize Branching Questions",
-              "description": "Branching questions will be displayed in random order"
+              "label": "Randomiser les questions d'embranchement",
+              "description": "Les questions d'embranchement seront affichées aléatoirement"
             }
           ]
         },
